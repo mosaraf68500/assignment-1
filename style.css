@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Azeret Mono', monospace;
+}
+
+/* header section styles start */
+.header{
+    width: 100%;
+    height: 550px;
+    background-image: url('./assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.hero{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-image{
+    width: 150px;
+    height: 200px;
+}
+
+.hero-title{
+width: 900px;
+height: 100px;
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800
+}
+.hero-description{
+    color: rgb(205, 215, 235);
+font-family: Azeret Mono;
+font-size: 10px;
+font-weight: 400;
+opacity: 0.5;
+
+}
+
+.hero-btn{
+    padding: 10px 16px;
+    border-radius: 8px;
+
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 600;
+border: none;
+cursor: pointer;
+}
+
+.hero-btn:hover{
+    background-color:#363237;
+    color: white;
+}
+/* header section styles end */
